@@ -26,7 +26,7 @@ body
 
 /*Estilos hero*/
 #hero {
-    background-image: url("C:/Users/Melissa/Downloads/web_page/imagenes/iconos/cosmos.avif");
+    background-image: url("../imagenes/iconos/cosmos.avif");
     background-size: contain;
     height: fit-content;
     padding: 40px;
