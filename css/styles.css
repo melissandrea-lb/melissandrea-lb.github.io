@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+/* Estilo generales */
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/*Estilos header*/
+
+/*Estilos hero*/
+#hero {
+    background-image: url("C:/Users/Melissa/Downloads/web_page/imagenes/iconos/cosmos.avif");
+    background-size: contain;
+    height: fit-content;
+    padding: 40px;
+}
+
+
+#hero .information-container #foto{
+    width: 200px;  
+}
+
+#hero .information-container #foto img {
+    border-radius: 100%;
+}
+
+#hero .about-me #foto{
+    width: 200px;  
+}
+
+#hero .information-container {
+    display: flex;
+    justify-content: center;
+}
+
+#hero .information-content{
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    display: flex;
+    width: 700px;
+    margin-top: 40px;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    border-radius: 30%;
+}
+#hero .about-me {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#hero .certifications {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#hero .hobbies {
+    display: flex;
+    gap: 35px;
+    margin-top: 40px;
+}
+.information-skills{
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.contact-me{
+    height: 370px;
+    overflow: hidden;
+    margin-top: 25px;
+    text-align: center;
+}
